@@ -1,0 +1,88 @@
+.contact-info {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    margin: 0;
+}
+.contact-info a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.contact-info a:hover {
+    background-color: #f60;
+}
+
+.contact-info a i {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.contact-link {
+    display: inline-block;
+    margin-right: 20px;
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    10% {
+        transform: translate(-5px, 0) rotate(-5deg);
+    }
+
+    20% {
+        transform: translate(5px, 0) rotate(5deg);
+    }
+
+    30% {
+        transform: translate(-5px, 0) rotate(-5deg);
+    }
+
+    40% {
+        transform: translate(5px, 0) rotate(5deg);
+    }
+
+    50% {
+        transform: translate(-5px, 0) rotate(-5deg);
+    }
+
+    60% {
+        transform: translate(5px, 0) rotate(5deg);
+    }
+
+    70% {
+        transform: translate(-5px, 0) rotate(-5deg);
+    }
+
+    80% {
+        transform: translate(5px, 0) rotate(5deg);
+    }
+
+    90% {
+        transform: translate(-5px, 0) rotate(-5deg);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}

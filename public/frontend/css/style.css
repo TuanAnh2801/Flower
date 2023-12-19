@@ -1,0 +1,400 @@
+*
+{
+    box-sizing: border-box;
+}
+:root{
+
+    --Archer-Medium-Pro:'Archer-Medium-Pro';
+    --Lato-Black:'Lato-Black';
+    --Lato-Bold:'Lato-Bold';
+    --Lato-Regular:'Lato-Regular';
+    --SortsMillGoudy-Italic:'SortsMillGoudy-Italic';
+    /* border: 1px solid black; */
+
+}
+li
+{
+    list-style: none;
+    font-family: var(--Archer-Medium-Pro);
+}
+a
+{
+    text-decoration:none;
+
+}
+ul{
+    margin: 0;
+}
+
+@font-face {
+    font-family: Archer-Medium-Pro;
+    src: url(../fonts/Archer-Medium-Pro.otf);
+}
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+/* @font-face {
+    font-family: SortsMillGoudy-Italic;
+    /* src: url(../fonts/SortsMillGoudy-Italic.ttf.); */
+
+/* --------------header--------- */
+.nav_position
+{
+        position: fixed;
+        top: 0;
+        left: 0;
+}
+
+.header
+{
+    background-color: #446084;
+    
+}
+#head
+{
+    background-color: #446084;
+    padding: 5px 0 5px 0;
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.fa-instagram 
+{
+    color: red;
+}
+.fa-envelope{
+    color: rgb(154, 162, 162);
+}in_cart
+.fa-phone
+{
+    color: blue;
+}
+
+
+.information
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+.information h6
+{
+    font-family:var(--SortsMillGoudy-Italic);
+    padding:0 10px 0 10px ;
+    color: white;
+    margin: 0;
+    font-size: 15px;
+}
+
+i{
+    padding-right:5px ;
+}
+.clock
+{
+    border-left:solid 1px rgb(186, 181, 181);
+    border-right:solid 1px rgb(186, 181, 181);
+    padding-left:5px;
+    padding-right: 5px;
+}
+.phone 
+{
+        border-right:solid 1px rgb(186, 181, 181);
+}
+.adress
+{
+    border: none;
+    background: none;
+  
+    margin: 0;
+}
+.fa-location-dot
+{
+    color: red;
+}
+.modal-content
+{
+    width: 128%;
+    margin-top: 100px;
+}
+
+
+
+.login_cart
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+.login li
+{
+    border-right:solid 1px rgb(186, 181, 181);
+    padding: 0 10px 0 10px;
+}
+.btn_login
+{
+    border: none;
+    background: none;
+}
+.btn_login li
+{
+    color: white;
+    
+}
+
+#form_login
+{
+    width: 80%;
+
+}
+#exampleModalLabel
+{
+    text-align: center;
+    margin-left: 7.8rem;
+}
+.fa-sharp
+{
+   color: rgb(151, 164, 222);
+}
+.modal-header h1
+{
+    font-family: var(--SortsMillGoudy-Italic);
+
+}
+.dropdown li i 
+{
+    color: white;
+}
+.dropdown li  
+{
+    color: white;
+}
+.dropdown li:active
+{
+    color: #446084;
+   transition: 5.s;
+}
+.cart_text
+{
+    color: white;
+}
+.form-label
+{
+    font-family:  var(--SortsMillGoudy-Italic);
+    color: aliceblue;
+}
+.form-check-label
+{
+    font-family:  var(--SortsMillGoudy-Italic);
+    color: aliceblue;
+
+}
+.form-control
+{
+   box-shadow: 2px 3px 10px 2px rgb(122, 117, 117);
+}
+#exit
+{
+    margin: 0;
+}
+#background_login
+{
+    /* background-color: rgb(192, 208, 208); */
+    background-image: url('../img/2-y-nghia-hoa-hong-den-tang-cho-ai-vao-dip-nao-la-dung.webp');
+    background-repeat: no-repeat;
+    
+}
+
+
+/* header_main */
+#icon-menu
+{
+    display: none;
+}
+
+.title_text h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-family:var(--SortsMillGoudy-Italic);
+    color:#0c0c0c;
+}
+
+/*--------------header-wrapper---------- */
+/* seach */
+#search-box
+{
+    background-color: #fff;
+    margin-left: 145px;
+    border-radius: 30px;
+
+}
+#search-box #search-text
+{
+
+    border: none;
+    outline: none;
+    background: none;
+    padding-left: 20px ;
+    font-size: 18px;
+
+}
+#search-box #search-btn
+{
+    background-color: #ffff;
+    border: none;
+    padding:10px 10px;
+    cursor: pointer;
+    border-radius: 49%;
+}
+
+.header-wrapper
+{
+    background-color: #f1f1f1;
+}
+.menu
+{
+    margin-left: 25px;
+    padding: 0;
+}
+.menu li
+{
+    display:inline-block;
+    padding-right: 50px;
+    position: relative;
+    padding: 15px 14px 15px 35px;
+}
+.menu li::after
+{
+    content: "";
+    position: absolute;
+    background-color: red;
+    transform: scaleX(0);
+    height: 2px;
+    width: 78%;
+    bottom: 0;
+    left:20px;
+    transition: all 0.3s cubic-bezier(0.75,0.82,0.165,1) ;
+}
+.menu li a:hover
+{
+     color: rgb(23, 22, 22);;
+}
+.menu li:hover::after
+{
+    transform: scaleX(1);
+}
+.menu li a
+{
+    text-transform: uppercase;
+    color: rgb(81, 76, 76);
+    font-family: var(--Lato-Bold)
+}
+/* Danh Mục */
+.btn-group
+{
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    margin-bottom:0;
+    padding-left: 10px;
+}
+.btn-group::after
+{
+    content: "";
+    position: absolute;
+    background-color: red;
+    transform: scaleX(0);
+    height: 2px;
+    width: 78%;
+    bottom: 0;
+    left:0;
+    transition: all 0.3s cubic-bezier(0.75,0.82,0.165,1) ;
+}
+.dropdown li a
+{
+    text-transform: none;
+    font-family: var(--SortsMillGoudy-Italic);
+}
+.btn-group:hover::after
+{
+    transform: scaleX(1);
+}
+.dropdown-toggle:hover
+{
+    color: rgb(23, 22, 22);;
+}
+.dropdown-toggle
+{
+    text-transform: uppercase;
+    color: rgb(81, 76, 76);
+    font-family: var(--Lato-Bold);
+}
+.dropdown-menu.show
+{
+    /* width: 200%;
+    height: 22rem; */
+    border: solid 1px black;
+
+}
+.dropdown-menu.show li
+{
+   /* margin:0px */
+   padding: 0;
+}
+
+@media screen and (max-width:576px)
+{
+
+    #logo_1
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        display: none;
+    }
+    #icon-menu
+    {
+        display: block;
+        border: none;
+        background: none;
+        font-size: 25px;
+    }
+
+
+    .logo 
+    {
+        margin: 0 auto;
+    }
+    .title_text
+    {
+        display: none;
+    }
+    .header-wrapper
+    {
+        display: none;
+    }
+    .cart
+    {
+        display: block;
+    }
+
+}

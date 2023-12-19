@@ -1,0 +1,193 @@
+#note p {
+    text-align: center;
+}
+
+.jumbotron {
+    padding-top: 3rem;
+}
+
+#list-cart {
+    width: 1067px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.header_success {
+    box-shadow: 11px 16px 9px -11px rgba(0, 0, 0, .1);
+    width: 710px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 50vh;
+    padding-top: 0;
+
+}
+
+.container3 form {
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, .1);
+}
+
+.container3 form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container3 form .row .col {
+    flex: 1 1 250px;
+}
+
+.container3 form .row .col .title {
+    font-size: 25px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.container3 form .row .col .inputBox {
+    margin: 15px 0;
+}
+
+.container3 form .row .col .inputBox span {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: block;
+}
+
+
+
+.container3 form .row .col .inputBox input:focus {
+    border: 1px solid #000;
+}
+
+.container3 form .row .col .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.container3 form .row .col .flex .inputBox {
+    margin-top: 5px;
+}
+
+.container3 form .row .col .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.container3 form .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 25px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.container3 form .submit-btn:hover {
+    background: #2ecc71;
+}
+
+.product-remove:hover {
+
+    background-color: white;
+
+    color: green;
+
+    font-weight: 600;
+
+    border: 1px solid green;
+
+}
+
+.product-quantity>input {
+
+    width: 40px;
+
+    padding: 5px;
+
+    text-align: center;
+
+}
+
+.fa {
+
+    margin-right: 5px;
+
+}
+
+.cart-total {
+
+    flex: 0.25;
+
+    margin-left: 20px;
+
+    padding: 20px;
+
+    height: 200px;
+
+    border: 1px solid silver;
+
+    border-radius: 5px;
+
+}
+
+.cart-total p {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+
+    font-size: 20px;
+
+}
+
+.cart-total a {
+
+    display: block;
+
+    text-align: center;
+
+    height: 40px;
+
+    line-height: 40px;
+
+    background-color: tomato;
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.cart-total a:hover {
+
+    background-color: red;
+
+}
+
+/* userorder */
+#icon_null {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#icon_null img {
+    width: 300px;
+}
+
+
+/* reponsive 25/2 */
